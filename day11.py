@@ -1,9 +1,8 @@
 import streamlit as st
 import pdfplumber
 from groq import Groq
-
-client = Groq(api_key="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")
-
+import os
+client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 st.set_page_config(page_title="AI PDF Summarizer", page_icon="📄")
 st.markdown("""
     <style>
