@@ -4,7 +4,7 @@ A web app that uses AI to instantly summarize any PDF document.
 Built with Python, Streamlit, and Groq AI.
 
 ## 🌐 Live Demo
-[Click here to try the app](#) ← we'll add this link after deployment
+[Click here to try the app](https://ai-pdf-summarizer-p7mumauft5hrgw7ny86srq.streamlit.app)
 
 ## ✨ Features
 - 📄 Upload any PDF document
